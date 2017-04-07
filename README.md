@@ -27,7 +27,7 @@
 	        compile 'com.github.BolexLiu:PressScanCode:v1.0.0'
 	}
   ```
- - 使用
+ - usage
  ```
                 /**
                   * view 你要扫描的view
@@ -41,6 +41,6 @@
                  });
  ```
 
- android版本支持:
+ android Version support:
  - minSdkVersion 14
  - maxSdkVersion 25+
