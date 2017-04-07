@@ -28,7 +28,7 @@
   ```
  - 使用
  ```
-   ScanTools.scanCode(v, new ScanTools.ScanCall() {
+   ScanTools.scanCode(view, new ScanTools.ScanCall() {
                      @Override
                      public void getCode(String code) {
                          Toast.makeText(ScanSimpleActivity.this,code,Toast.LENGTH_SHORT).show();
