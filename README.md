@@ -29,6 +29,10 @@
   ```
  - 使用
  ```
+                /**
+                  * view 你要扫描的view
+                  *ScanCall 回调扫码结果
+                  */
    ScanTools.scanCode(view, new ScanTools.ScanCall() {
                      @Override
                      public void getCode(String code) {

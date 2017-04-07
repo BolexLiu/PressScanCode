@@ -40,6 +40,7 @@ public class ScanSimpleActivity extends AppCompatActivity {
             public boolean onLongClick(View v) {
 
                 //todo:调用扫描工具
+
                 ScanTools.scanCode(v, new ScanTools.ScanCall() {
                     @Override
                     public void getCode(String code) {
