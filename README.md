@@ -1,5 +1,6 @@
 # PressScanCode
 一个长按扫描webView上的二维码的工具库。
+集成后您仅需三行代码就可以实现解析。
 
 
 ![](./tips.gif)
@@ -35,3 +36,7 @@
                      }
                  });
  ```
+
+ android版本支持:
+ - minSdkVersion 14
+ - maxSdkVersion 25+
